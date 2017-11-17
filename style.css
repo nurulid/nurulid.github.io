@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    font-size: 90px;
+    font-weight: bold;
+    color : rgb(31, 190,177);
+    font-family: Segoe UI;
+    border: 5px solid rgb(31, 190,177);
+    height: 637px;
+}
+
+#nid{
+    position: relative;
+    top: 220px;
+    width: 135px;
+    margin: 0 auto;
+    transition: 0.7s;
+}
+
+#nid:hover{
+    font-size: 100px;
+    cursor: pointer;
+    transform: rotateZ(45deg);
+    transition: 0.7s;
+    transform-origin: 10px 20px;
+    border: 5px rgb(31, 190,177);
+}
